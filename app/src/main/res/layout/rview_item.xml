@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <View
+        android:id = "@+id/view_color"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/cardview_dark_background"
+        />
+
+    <TextView
+        android:id= "@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:textAllCaps="true"
+        android:text="textView"/>
+</LinearLayout>
